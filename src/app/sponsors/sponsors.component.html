@@ -1,0 +1,24 @@
+<div class="wrapper">
+  <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('../assets/img/sponsors_header_resized.jpg');">
+    <div class="filter"></div>
+  </div>
+  <div class="section profile-content">
+    <div class="container">
+      <div class="owner">
+        <div class="name">
+          <h4 class="title">Our Sponsors
+            <br />
+          </h4>
+          <h6 class="description">From the bottom of our hearts. Thank you.</h6>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 75px;">
+        <div class="col-md-3 ml-auto mr-auto text-center" *ngFor="let sponsor of sponsors">
+          <a href="{{sponsor.url}}" title="Visit {{sponsor.name}}'s Site" target="_blank">
+            <img [src]="sponsor.imgUrl" [style.width]="sponsor.scale + '%'" style="margin-top: 10%; margin-bottom: 10%;" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
