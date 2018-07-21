@@ -6,10 +6,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { ProfileComponent } from './profile/profile.component';
 import { LandingComponent } from './landing/landing.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
+import { TherunComponent } from './therun/therun.component';
 
 const routes: Routes =[
     { path: 'user-profile',     component: ProfileComponent },
     { path: 'landing',          component: LandingComponent },
+    { path: 'therun',          component: TherunComponent },
     { path: 'sponsors',          component: SponsorsComponent },
     { path: '', redirectTo: 'landing', pathMatch: 'full' }
 ];
