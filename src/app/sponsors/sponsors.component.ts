@@ -39,14 +39,14 @@ export class SponsorsComponent implements OnInit {
     {
       'name': 'Luna Sandals',
       'url': 'http://www.lunasandals.com/',
-      'imgUrl': '../../assets/img/sponsors/sponsor_luna.jpg',
+      'imgUrl': '../../assets/img/sponsors/sponsor_luna.png',
       'scale': '75',
       'active': true
     },
     {
       'name': 'Joe Trailman Gaiters',
       'url': 'http://www.joetrailmangaiters.com/',
-      'imgUrl': '../../assets/img/sponsors/sponsor_joetrailman.jpg',
+      'imgUrl': '../../assets/img/sponsors/sponsor_joetrailman.png',
       'scale': '75',
       'active': true
     },
@@ -67,7 +67,7 @@ export class SponsorsComponent implements OnInit {
     {
       'name': 'Lundberg',
       'url': 'http://www.lundberg.com/',
-      'imgUrl': '../../assets/img/sponsors/sponsor_lundberg.jpg',
+      'imgUrl': '../../assets/img/sponsors/sponsor_lundberg.png',
       'scale': '75',
       'active': true
     },
