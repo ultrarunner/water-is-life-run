@@ -19,6 +19,7 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
 import { TherunComponent } from './therun/therun.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { HopitraditionComponent } from './hopitradition/hopitradition.component';
+import { ResultsComponent } from './results/results.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { HopitraditionComponent } from './hopitradition/hopitradition.component'
     SponsorsComponent,
     TherunComponent,
     RegistrationComponent,
-    HopitraditionComponent
+    HopitraditionComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
