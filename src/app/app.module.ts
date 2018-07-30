@@ -17,6 +17,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { TherunComponent } from './therun/therun.component';
+import { RegistrationComponent } from './registration/registration.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { TherunComponent } from './therun/therun.component';
     NavbarComponent,
     FooterComponent,
     SponsorsComponent,
-    TherunComponent
+    TherunComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
