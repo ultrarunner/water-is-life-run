@@ -18,6 +18,7 @@ import { HomeModule } from './home/home.module';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { TherunComponent } from './therun/therun.component';
 import { RegistrationComponent } from './registration/registration.component';
+import { HopitraditionComponent } from './hopitradition/hopitradition.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { RegistrationComponent } from './registration/registration.component';
     FooterComponent,
     SponsorsComponent,
     TherunComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    HopitraditionComponent
   ],
   imports: [
     BrowserModule,
