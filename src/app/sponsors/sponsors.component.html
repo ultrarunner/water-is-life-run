@@ -12,7 +12,7 @@
           <h6 class="description">From the bottom of our hearts. Thank you.</h6>
         </div>
       </div>
-      <div class="row" style="margin-top: 75px;">
+      <div class="row">
         <div class="col-md-3 ml-auto mr-auto text-center" *ngFor="let sponsor of sponsors">
           <a href="{{sponsor.url}}" title="Visit {{sponsor.name}}'s Site" target="_blank">
             <img [src]="sponsor.imgUrl" [style.width]="sponsor.scale + '%'" style="margin-top: 10%; margin-bottom: 10%;" />

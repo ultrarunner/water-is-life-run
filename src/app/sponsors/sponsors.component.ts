@@ -10,8 +10,8 @@ export class SponsorsComponent implements OnInit {
   sponsors = [
     {
       'name': 'Berkey Filters',
-      'url': 'http://www.berkeyfilters.com/',
-      'imgUrl': '../../assets/img/sponsors/sponsor_berkey.png',
+      'url': 'https://www.berkeywater.com/',
+      'imgUrl': '../../assets/img/sponsors/sponsor_berkey.jpg',
       'scale': '75',
       'active': true
     },
