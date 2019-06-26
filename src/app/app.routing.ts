@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: 'landing', component: LandingComponent },
   { path: 'hopitradition', component: HopitraditionComponent },
   { path: 'registration', component: RegistrationComponent },
-  { path: 'results', component: ResultsComponent },
+  // { path: 'results', component: ResultsComponent },
   { path: 'therun', component: TherunComponent },
   { path: 'sponsors', component: SponsorsComponent },
   { path: '', redirectTo: 'landing', pathMatch: 'full' }
