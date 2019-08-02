@@ -44,9 +44,9 @@ export class SponsorsComponent implements OnInit {
       'active': true
     },
     {
-      'name': 'Joe Trailman Gaiters',
-      'url': 'http://www.joetrailmangaiters.com/',
-      'imgUrl': '../../assets/img/sponsors/sponsor_joetrailman.png',
+      'name': 'Theo Chocolates',
+      'url': 'https://theochocolate.com',
+      'imgUrl': '../../assets/img/sponsors/sponsor_theo.png',
       'scale': '75',
       'active': true
     },
@@ -91,7 +91,7 @@ export class SponsorsComponent implements OnInit {
       'imgUrl': '../../assets/img/sponsors/sponsor_trailrunnermag.jpg',
       'scale': '75',
       'active': true
-    },  
+    },
     {
       'name': 'Dr Tungs',
       'url': 'http://www.drtungs.com/',
@@ -113,15 +113,15 @@ export class SponsorsComponent implements OnInit {
       'imgUrl': '../../assets/img/sponsors/sponsor_californiababy.jpg',
       'scale': '75',
       'active': true
-    },  
+    },
     {
       'name': 'Chinook Seedery',
       'url': 'http://www.chinookseedery.com/',
       'imgUrl': '../../assets/img/sponsors/sponsor_chinookseedery.jpg',
       'scale': '75',
       'active': true
-    }  
-    
+    }
+
   ];
 
   constructor() {
