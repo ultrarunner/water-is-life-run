@@ -19,6 +19,13 @@ export class SponsorsComponent implements OnInit {
       'name': 'Grand Canyon Trust',
       'url': 'http://www.grandcanyontrust.org/',
       'imgUrl': '../../assets/img/sponsors/sponsor_grandcanyontrust.jpg',
+      'scale': '100',
+      'active': true
+    },
+    {
+      'name': 'Colorado Plateau Intertribal Conversations',
+      'url': 'http://intertribalgathering.com/',
+      'imgUrl': '../../assets/img/sponsors/sponsor_colorado_plateau.png',
       'scale': '75',
       'active': true
     },
@@ -55,7 +62,7 @@ export class SponsorsComponent implements OnInit {
       'url': 'http://www.clifbar.com/',
       'imgUrl': '../../assets/img/sponsors/sponsor_clifbar.jpg',
       'scale': '75',
-      'active': true
+      'active': false
     },
     {
       'name': 'Vita Coco',

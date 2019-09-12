@@ -3,7 +3,6 @@ import { CommonModule, } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ProfileComponent } from './profile/profile.component';
 import { LandingComponent } from './landing/landing.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { TherunComponent } from './therun/therun.component';
@@ -12,7 +11,6 @@ import { HopitraditionComponent } from './hopitradition/hopitradition.component'
 import { ResultsComponent } from './results/results.component';
 
 const routes: Routes = [
-  { path: 'user-profile', component: ProfileComponent },
   { path: 'landing', component: LandingComponent },
   { path: 'hopitradition', component: HopitraditionComponent },
   { path: 'registration', component: RegistrationComponent },
