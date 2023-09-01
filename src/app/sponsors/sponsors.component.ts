@@ -16,6 +16,13 @@ export class SponsorsComponent implements OnInit {
       'active': true
     },
     {
+      'name': 'Tailwind',
+      'url': 'https://tailwindnutrition.com/',
+      'imgUrl': '../../assets/img/sponsors/sponsor_tailwind.png',
+      'scale': '75',
+      'active': true
+    },
+    {
       'name': 'Grand Canyon Trust',
       'url': 'http://www.grandcanyontrust.org/',
       'imgUrl': '../../assets/img/sponsors/sponsor_grandcanyontrust.jpg',
